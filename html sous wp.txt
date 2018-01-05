@@ -1,0 +1,28 @@
+[su_table responsive="yes"]
+<table>
+<tr>
+<td><input type="button" onclick="load('//widestream.io/embedFlow.php?live=20647')" value="Ma chaine"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412346031626?autoplay=1')" value="Fuji TV"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412357893642?autoplay=1')" value="Nippon TV"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412338560522?autoplay=1')" value="NHK"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412313132554?autoplay=1')" value="Tokyo MX"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412360580618?autoplay=1')" value="Tv Asahi"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412362939914?autoplay=1')" value="Tv Tokyo"> </input></td>
+<td><input type="button" onclick="load('//ok.ru/videoembed/412353764874?autoplay=1')" value="TBS"> </input></td>
+<td><input type="button" onclick="load('https://streamlabs.com/mrfrieza')" value="Faire un Don"> </input></td>
+</tr>
+</table>
+[/su_table]
+
+<script>
+function load(page) {
+  document.getElementById("tv").src = page;
+}
+</script>
+
+<div>
+<iframe align="left" id="tv" frameborder="0" allowfullscreen=allowfullscreen></iframe>
+<iframe align="right" id="chat" src="https://www.twitch.tv/mrfrieza/chat?popout=" frameborder="0" scrolling="yes"></iframe>
+</div>
+
+</body>
